@@ -1,24 +1,24 @@
 ---
 layout: docs
-title: About Hydra
-permalink: /doc/introduction/about-hydra
+title: About NetHydra
+permalink: /doc/introduction/Wiki-NetHydra
 comments: true
-desc: HydraPWK Introduction
+desc: NetHydra Introduction
 author: Joe
 update: 2025-09-09 06:44:00 +0700
 ---
 
 
-# About HydraPWK
+# About NetHydra
 
 > This pages still in development
 
-HydraPWK `formerly known as BlackTrack(not backtrack)` is an OpenSource Linux distribution based on [Debian Project distro](https://debian.org) .
+NetHydra formerly known as HydraPWK is an OpenSource Linux distribution based on [Debian Project distro](https://debian.org) .
 
 This distribution contains several Penetration Testing tools, Includes Information gathering, scanning, Stress Testing, Exploitation, Cracking, Reversing, Forensics, Drone.
 
-### What is HydraPWK?
-HydraPWK is Open-source Linux Distribution based on `Debian GNU/Linux <debian.org>`, aimed for research and pentesting on Industry area.
+### What is NetHydra?
+NetHydra is Open-source Linux Distribution based on `Debian GNU/Linux <debian.org>`, aimed for research and pentesting on Industry area.
 
 ### Open-source
 This project is Open-source, based on `Debian GNU/Linux <debian.org>` under DFSG license.
@@ -30,16 +30,17 @@ This project is `different` from another project, We emphasize this project for 
 As default we're using RT kernel `PREEMPT_RT` make sure Everything is running on time.
 
 <i>We build things for the industry.</i>
-### HydraPWK Features
-> - [RT kernel]() - As default hydrapwk using RT(real-time) kernel `<VERSION_KERNEL>-xhydrapwk-<RT_VERSION>-antihacker-<ARCH>`, thats bacause we are focusing hydrapwk for the real-time hardware hacking(physical hardware pentesting), thats why we need `low latency` for communicate with the target.
-> - [Plug and Play]() - hydrapwk it's self having linux kernel name `xhydrapwk-rt1-antihacker` or `<VERSION_KERNEL>-xhydrapwk-rt1-antihacker-<ARCH>` not just RT as default we have also `built-in` kernel module, so with this you don't need to load module manually and thats will automatically loaded on boot.
+
+### NetHydra Features
+> - [RT kernel]() - As default NetHydra using RT(real-time) kernel `<VERSION_KERNEL>-xhydrapwk-<RT_VERSION>-antihacker-<ARCH>`, thats bacause we are focusing NetHydra for the real-time hardware hacking(physical hardware pentesting), thats why we need `low latency` for communicate with the target.
+> - [Plug and Play]() - NetHydra it's self having linux kernel name `xhydrapwk-rt1-antihacker` or `<VERSION_KERNEL>-xhydrapwk-rt1-antihacker-<ARCH>` not just RT as default we have also `built-in` kernel module, so with this you don't need to load module manually and thats will automatically loaded on boot.
 > - [Open-source]() - this software is Open-source all packages (a lot of packages/tools) under DFSG, GPLv2+, GPLv3, GPLv2, Apache license and it's Open-source (only on component main/free)
-> - [Device support]() - Curently we are still developing or adapt hydrapwk into `embedded device` like TvBox and Mobile.
+> - [Device support]() - Curently we are still developing or adapt NetHydra into `embedded device` like TvBox and Mobile.
 > - [Drop unit]() - Drop every node cache every shutdown and boot
 
 
-### HydraPWK For daily use (Daily driven)
+### NetHydra For daily use (Daily driven)
 
-we doesn't recommend `HydraPWK` for `daily use` and not for usual Desktop, with another word HydraPWK `not` for all `people`
+we doesn't recommend `NetHydra` for `daily use` and not for usual Desktop, with another word NetHydra `not` for all `people`
 
 > Message from HydraPWK: "Use it? shutdown it"
