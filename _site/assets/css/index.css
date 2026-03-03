@@ -6,12 +6,12 @@
 
  ::-moz-selection {
   color: white;
-  background: purple;
+  background: #a90c1c;
 }
 
 ::selection {
   color: white;
-  background: purple;
+  background: #a90c1c;
 }
 
 body {
@@ -54,11 +54,17 @@ body {
     width: 100%;
     height: 100%;
     min-height: 80dvh;
-    background-color: white;
+    background-color: #a90c1c;
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
+}
+
+.layer1 h2 {
+    color: white;
+    text-transform: uppercase;
+    font-size: 2.9em;
 }
 /* endMain */
 
@@ -71,7 +77,7 @@ body {
     background: url('/assets/graphics/hydrapwk_site_banner.png');
     background-attachment: local;
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: 100%;
     display: flex;
     justify-content: center;
     top: 0;
@@ -90,7 +96,7 @@ body {
 }
 
 .banner_paraghraph {
-    width: 90%;
+    width: 80%;
 }
 #inside_banner img {
     width: 100%;
@@ -118,7 +124,6 @@ body {
     margin-left: 0;
     margin-right: 0;
     font-weight: 300;
-    letter-spacing: -1px;
     font-family: "Inter", sans-serif;
     text-shadow: 2px 2px 10px #00000031;
 }
@@ -239,25 +244,24 @@ body {
 }
 #get {
     text-decoration: none;
-    background-color: purple;
+    background-color: #a90c1c;
     color: white;
-    border: 2px solid purple;
-    border-radius: 2px;
+    border: 2px solid #a90c1c;
     transition: all ease 400ms;
     margin-right: 10px;
     padding: 20px;
-    font-weight: 600;
+    font-weight: 700;
     width: 100%;
     max-width: fit-content;
     font-size: 1.1em;
-    padding-top: 5px;
-    letter-spacing: -1px;
-    padding-bottom: 5px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+
 }
 
 #get:hover {
-    background-color: mediumpurple;
-    border: 2px solid mediumpurple;
+    background-color: red;
+    border: 2px solid red;
     transition: all ease 360ms;
     border-style: dotted;
 }
@@ -307,12 +311,10 @@ body {
 /* endBanner */
 
 #card {
-    background-color: white;
     display: flex;
     flex-direction: column;
     padding: 20px;
     border-radius: 5px;
-    border:solid mediumpurple;
     color: black;
     list-style: none;
     display: inline-block;
@@ -321,11 +323,30 @@ body {
     text-align: left;
     justify-content: left;
     align-items: center;
-    width: 400px;
+    width: 600px;
     height: 350px;
+    color: white;
+    text-decoration: none;
+    font-size: 1.2em;
+    font-style: italic;
 }
 
+#card a {
+    padding-left: 10px;
+    padding-right: 10px;
+    background-color: white;
+    color: black;
+    font-style: normal;
+    text-decoration: none;
+    display: inline-block;
+    margin-top: 20px;
+}
 
+#card a:hover {
+    background-color: black;
+    color: white;
+
+}
 .second_containt h1 {
     color: black;
     margin-bottom: 30px;
@@ -337,15 +358,22 @@ body {
     border-bottom: 1px solid red;
     padding-bottom: 10px;
 }
-/* #card:hover {
-    transition: all ease 360ms;
-    transform: translateY(-10px);
-    background-color: black;
-    border: 1px solid red;
-    border-style: dotted;
-    box-shadow: 0px 0px 15px 15px rgba(0, 0, 0, 0.048);
-} */
 
+.our-stack {
+    background-color: black;
+    width: 100%;
+    height: 100%;
+    min-height: 50dvh;
+    display: flex;
+    justify-content: center;
+    padding-top: 30px;
+}
+
+.our-stack h1 {
+    color: white;
+    font-weight: normal;
+    text-transform: uppercase;
+}
 #card p {
     width: 90%;
     background-color: transparent;
@@ -438,6 +466,7 @@ body {
     display: flex;
     top: 0;
     gap: 50px;
+    flex-wrap: wrap;
 }
 
 .inside_paraghraph {
@@ -790,7 +819,7 @@ body {
 }
 #get {
     text-decoration: none;
-    background-color: red;
+    background-color: #a90c1c;
     color: white;
     border: 2px solid red;
     border-radius: 5px;

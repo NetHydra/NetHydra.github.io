@@ -23,7 +23,7 @@
     padding-left: 0;
     padding-right: 0;
     width: 100%;
-    background-color: white;
+    background-color: #a90c1c;
     position: fixed;
     z-index: 9999;
     justify-content: space-evenly;
@@ -40,9 +40,9 @@
 }
 
 .navlist img {
-    width: 70px;
+    width: 150px;
     background-color: transparent;
-    display: block;
+    display: inline-block;
     align-items: flex-start;
     align-items: flex-start;
 }
@@ -59,18 +59,18 @@
 }
 
 .flex a {
-    color: #333333;
+    color: white;
     font-weight: normal;
     transition: all ease 400ms;
     text-decoration: none;
     border: 1px solid transparent;
-    letter-spacing: -1px;
+    font-size: 1.2em;
 }
 
 .flex a:hover {
     border: 1px solid black;
     border-style: dotted;
-    color: black;
+    color: white;
     transition: all ease 400ms;
 }
 
@@ -81,19 +81,19 @@
 
 #get-button {
     letter-spacing: -1px;
-    background-color: purple;
+    background-color: white;
     padding: 20px;
     padding-top: 5px;
     padding-bottom: 5px;
-    color: white;
-    border-radius: 5px;
+    color: #a90c1c;
     font-weight: 700;
-    border: 1px solid purple;
+    border: 1px solid #a90c1c;
 }
 
 #get-button:hover {
-    background-color: transparent;
-    color: purple;
+    background-color: black;
+    color: white;
+    border: 1px solid black;
 }
 
 
@@ -114,7 +114,7 @@
   left: 0;
   right: 0;
   z-index: 9999;
-  background-color: white;
+  background-color: #a90c1c;
   transition: .3s;
   font-family: "Inter", sans-serif;
   padding-top: 0;
@@ -136,7 +136,7 @@
   margin: 0 auto;
   -ms-flex-wrap: wrap;
 flex-wrap: wrap;
-  background-color: white;
+  background-color: #a90c1c;
   padding: 2px 0;
 
 }
@@ -144,14 +144,14 @@ flex-wrap: wrap;
 .brand {
   font-size: 1.3rem;
   font-weight: 600;
-  color: black;
+  color: white;
   display: flex;
   justify-content: center;
   align-items: center;
   padding-top: 5px;
 }
 .brand span {
-  color: black
+  color: white;
 }
 
 .brand img {
@@ -181,7 +181,7 @@ flex-wrap: wrap;
 .nav-menu a {
   width: 100%;
   margin: 5px 0;
-  color: black;
+  color: white;
   cursor: pointer;
   display: -webkit-box;
   display: -ms-flexbox;
