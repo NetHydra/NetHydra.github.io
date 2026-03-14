@@ -29,3 +29,9 @@ install dependencies
 ubuntu@ubuntu.local:~# cd nethydra.github.io
 ubuntu@ubuntu.local:~# bundle install
 ```
+Deploying
+```
+ubuntu@ubuntu:~# bundle exec jekyll server
+# the default port is listened on 4000 (http://localhost:4000)
+```
+
