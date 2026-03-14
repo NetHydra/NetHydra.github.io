@@ -74,7 +74,7 @@ body {
     width: 100%;
     height: 100%;
     background-color: black;
-    background: url('/assets/graphics/hydrapwk_site_banner.png');
+    background: url('/assets/graphics/hero_graphics/nethydra_site_banner.png');
     background-attachment: local;
     background-repeat: no-repeat;
     background-size: 100%;
@@ -497,7 +497,7 @@ body {
     height: 100%;
     min-height: 150px;
     background-color: black;
-    background-image: url("/assets/graphics/hydrapwk-cloud.png");
+    background-image: url("/assets/graphics/hero_graphics/nethydra-cloud.png");
     display: flex;
     background-size: cover;
     background-repeat: no-repeat;
@@ -645,7 +645,7 @@ body {
     display: flex;
     justify-content: center;
     background-color: black;
-    background-image: url('/assets/graphics/hydrapwk_site_banner.png');
+    background-image: url('/assets/graphics/hero_graphics/nethydra_site_banner.png');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -1047,7 +1047,7 @@ body {
     height: 100%;
     min-height: 150px;
     background-color: black;
-    background-image: url("/assets/graphics/hydrapwk-cloud.png");
+    background-image: url("/assets/graphics/hero_graphics/nethydra-cloud.png");
     display: flex;
     background-size: 100%;
     background-repeat: no-repeat;

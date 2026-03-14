@@ -27,7 +27,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-image: url(/assets/graphics/blog_banner.png);
+    background-image: url(/assets/graphics/hero_graphics/blog_banner.png);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
