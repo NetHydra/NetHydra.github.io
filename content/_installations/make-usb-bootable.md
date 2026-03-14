@@ -1,20 +1,20 @@
 ---
 layout: docs
-title: Make media bootable For HydraPWK
-permalink: /doc/installation/make-media-bootable-for-hydra
+title: Make media bootable For NetHydrad
+permalink: /doc/installation/make-media-bootable-for-nethydra
 comments: true
-desc: Guide book to creating media bootable for HydraPWK
+desc: Guide book to creating media bootable for NetHydra
 author: Joe
-update: 2025-07-11 01:22:24 +0700
+update: 2026-03-14 13:53:00 +0700
 ---
 
 
-# Creating bootable Media For HydraPWK.
+# Creating bootable Media For NetHydra.
 
-> Before we start make sure you have HydraPWK .ISO image from [Official download page](/get) HydraPWK.
+> Before we start make sure you have NetHydra .ISO image from [Official download page](/get) NetHydra.
 
 
-### Make HydraPWK bootable media using Balena Etcher.
+### Make NetHydra bootable media using Balena Etcher.
 
 
 
@@ -24,7 +24,7 @@ After you download [BalenaEtcher](https://etcher.balena.io/) let's open it up.
 
 ![BalenaEtcher](/assets/doc_assets/installation_graphics/bootable/balena-etcher-screen.png)
 
-Select image (.ISO/IMG) you have already download from official HydraPWK pages.
+Select image (.ISO/IMG) you have already download from official NetHydra pages.
 
 ![Select image](/assets/doc_assets/installation_graphics/bootable/choose-the-image.png)
 
@@ -59,7 +59,7 @@ Now you can use bootable media.
 
 
 ```
-hydrapwk@hydrapwk:~# fdisk -l
+nethydra@nethydra:~# fdisk -l
 
 ...
 
@@ -77,6 +77,6 @@ My USB Flash Drive on '/dev/sda' .
 > This step will erase all your data
 
 ```
-hydrapwk@hydrapwk:~# dd if=hydrapwk-amd64.iso of=/dev/sda bs=4M status=proggress
+nethydra@nethydra:~# dd if=nethydra-amd64.iso of=/dev/sda bs=4M status=proggress
 ...
 ```
