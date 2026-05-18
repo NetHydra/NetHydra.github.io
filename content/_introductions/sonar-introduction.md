@@ -5,7 +5,7 @@ permalink: /doc/Introduction/wiki-sonar
 comments: true
 desc: NetHydra Introduction
 author: Joe
-update: 2025-09-09 06:44:00 +0700
+update: 2026-05-18 13:13:00 +0700
 category: Introduction
 ---
 
@@ -20,7 +20,7 @@ SONAR (NetHydra SONAR) is another variant of NetHydra SONAR is intended for ente
 | SUPPORT BY DEFAULT | NetHydra | SONAR |
 | :---:   | :---: | :---: |
 | Web Application security | NO | Yes |
-| Defense Tools | YES | NO |
+| Defense Tools | YES | YES |
 | Threat Intelegence | NO | Yes |
 | RT Kernel | YES | NO |
 
