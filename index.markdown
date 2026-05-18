@@ -5,5 +5,5 @@
 layout: nethydra-index
 title: NetHydra
 description: NetHydra (formely known as HydraPWK) The Opensource Swiss Army Knife designed for Industry realm. based on Debian project
-release: /blog/nethydra-sana-2026.1-release
+release: /blog/nethydra-2026.2-release
 ---
