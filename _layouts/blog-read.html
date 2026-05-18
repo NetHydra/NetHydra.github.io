@@ -32,7 +32,7 @@
                 <img src="{{ page.thumbnail }}">
                 <div class="post-detail">
                     <span>
-                        <i class="ri-alarm-line"></i> 3 March 2026 
+                        <i class="ri-alarm-line"></i> {{ page.date | date: "%-d %B %Y" }}
                     </span>
                     <h1 id="title">
                         {{ page.title }}
