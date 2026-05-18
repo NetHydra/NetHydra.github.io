@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{ page.title }}</title>
+    <meta name="description" content="{{ page.description }}">
+    <link rel="stylesheet" href="/assets/css/download/download-sonar.css">
+     <link rel="stylesheet" href="/assets/css/misc/navbar.css">
+     <link rel="stylesheet" href="/assets/css/misc/footer.css">
+
+    <!-- googleFonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+    <!-- engGoogleFonts -->
+</head>
+<body>
+    {% include navbar.html %}
+    <div class="main_containt">
+        <section class="banner_download">
+            <div class="inside_banner_download">
+                <div class="banner_image">
+                    <img src="/assets/graphics/nethydra-sonar-download/sonar-logo.svg" alt="nethydra sonar logo">
+                    <div class="title_side_image">
+                        <h1>SONAR</h1>
+                        <span class="release-version">
+                            {{ page.image_version }}
+                        </span>
+                    </div>
+                </div>
+                <div class="short_information">
+                    <span>
+                        SONAR (NetHydra SONAR) for an Enterprise sector
+                    </span>
+                    <div class="banner_button">
+                        <a id="button_download" href="{{ page.download }}">Download</a>
+                        <a id="button_md5" href="{{ page.checksum }}">MD5SUM</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="download_information">
+            <div class="screenshot">
+                <h1>Screenshot</h1>
+                <div class="image-screenshot">
+			<img alt="hydrapwk-desktop" src="{{ page.hydrapwk-desktop }}">
+			<img alt="hydrapwk-tools-highlight" src=" {{ page.hydrapwk-tools-highlight }} ">
+                </div>
+            </div>
+            <div class="download_description">
+                <h1>Description</h1>
+                <span class="description">
+                    The standard Live amd64/x86_64 image installer SONAR you can follow the installation instruction via documentation pages<br>please verify the HydraPWK image using official hydrapwk md5sum.
+                    <br>
+                    you could see the image changelog in this <a href="{{ page.image_release }}">Post</a>
+                </span>
+            </div>
+            <div class="hardware-requirements">
+                <h1>Hardware requirements</h1>
+                <div class="requirements">
+                    <ul>
+                        <li id="arch">Architecture: <span>amd64</span></li>
+                        <br>
+                        <li>RAM <span>16GB</span></li>
+                        <li>DISK <span>16GB</span></li>
+                        <li>CPU<span>Intel Core i3</span></li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+    </div>
+    <script src="/assets/scripts/navbar.js"></script>
+</body>
+</html>

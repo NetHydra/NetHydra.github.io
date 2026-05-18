@@ -1,5 +1,5 @@
 ---
-layout: troubleshot
+layout: read-the-doc
 title: Trouble | Hydra
 permalink: /doc/troubleshot
 comments: true

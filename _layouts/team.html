@@ -4,73 +4,69 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>{{ page.title }}</title>
-    <link rel="stylesheet" href="/assets/css/team.css">
-    <link rel="stylesheet" type="text/css" href="/assets/css/footer.css">
-    <link rel="stylesheet" type="text/css" href="/assets/css/navbar.css">
-{% include favicon.html %}
-    <!-- googleFonts -->
+
+    <link rel="stylesheet" href="/assets/css/team/team.css">
+    <link rel="stylesheet" href="/assets/css/misc/navbar.css">
+    <link rel="stylesheet" href="/assets/css/misc/footer.css">
+
+    <!-- googleFonst -->
+
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">    <!-- endGoogleFonts -->
-    <!-- endGOogleFonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
 
-    <!-- remixIcons -->
-    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css" rel="stylesheet"/>
-    <!-- endRemix -->
-
+    <!-- endGoogleFonts -->
 </head>
-    {% include navbar.html %}
 <body>
-    <div class="main_team">
-        <div class="team_banner">
-            
-        </div>
-        <div class="inside_team">
-            <h2>Meet NetHydra Team</h2>
-            <ul class="list_team">
-                <li id="card">
-                    <img src="https://github.com/me-joe.png">
-                    <div class="detailed">
-                        <h1>Joe 🇮🇩</h1>
-                        <p>Founder, coredev, packaging. repo, blog, doc, web, system, designer.</p>
-                    </div>
-                </li>
-            </ul>
-        </div>
-        <div class="spesial_thanks">
-            <h1>Spesial Thanks!</h1>
-            <ul>
-                <li id="spesial_card">
-                    <img src="/assets/graphics/team_graphics/fox_emojipedia.png">
-                    <div class="info">
-                        <h1>Emilia 🇷🇺</h1>
-                        <p>Agree to have this project created! <a href="/doc/introduction/hydra-history">Hydra History</a></p>
-                    </div>
-                </li>
-                <li id="spesial_card">
-                    <div class="info">
+    {% include navbar.html %}
+    <div class="main_containt">
+        <div class="inside-containt">
+            <div class="team-scope">
+                <h1>NetHydra Team</h1>
+                <ul>
+                    <li class="card">
+                        <img src="https://github.com/me-joe.png">
+                        <div class="people-description">
+                            <h1>
+                                Joe (<a href="https://github.com/me-joe">@me-joe</a>) 🇮🇩
+                            </h1>
+                            <p>
+                                Founder, project manager, blog writer, core dev, packaging, designer
+                            </p>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+            <div class="team-scope">
+                <h1>From community</h1>
+                <ul>
+                    <li class="card">
                         <img src="/assets/graphics/team_graphics/mrpropfp.jpg">
-                        <h1>Mr.Pro 🇪🇬</h1>
-                        <p>Agree to have this project created <a href="/doc/introduction/hydra-history">Hydra History</a>, community helper.</p>
-                    </div>
-                </li>
-                <li id="spesial_card">
-                    <img src="/assets/graphics/team_graphics/nopfp.png">
-                    <div class="info">
-                        <h1>Fox47 🇮🇹</h1>
-                        <p>Moderator.</p>
-                    </div>
-                </li>
-                <li id="spesial_card">
-                    <img src="/assets/graphics/team_graphics/nopfp.png">
-                    <div class="info">
-                        <h1>Pozytron 🇷🇺</h1>
-                        <p>Thank you because trying BlackTrack!</p>
-                    </div>
-                </li>
-            </ul>
+                        <div class="people-description">
+                            <h1>
+                                Mr.Pro 🇪🇬
+                            </h1>
+                            <p>
+                                Community moderator
+                            </p>
+                        </div>
+                    </li>
+                    <li class="card">
+                        <img src="/assets/graphics/team_graphics/nopfp.png">
+                        <div class="people-description">
+                            <h1>
+                                Fox47 🇮🇹
+                            </h1>
+                            <p>
+                                Community moderator
+                            </p>
+                        </div>
+                    </li>
+                </ul>
+            </div>
         </div>
     </div>
-    {% include footer.html %}
+      <script src="/assets/scripts/navbar.js"></script>
+      {% include footer.html %}
 </body>
 </html>

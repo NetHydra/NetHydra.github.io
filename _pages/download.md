@@ -1,5 +1,5 @@
 ---
-layout: hydrapwk-download-purplizer
+layout: download-store
 title: NetHydra | STANDARD NetHydra AMD64 IMAGE
 permalink: /get/hydrapwk-standar
 comments: true

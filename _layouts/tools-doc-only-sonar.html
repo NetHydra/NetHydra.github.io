@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="{{ page.description }}">
+    <title>{{ page.title }}</title>
+
+    <!-- css -->
+     <link rel="stylesheet" href="/assets/css/tool-doc/read-tool.css">
+     <link rel="stylesheet" href="/assets/css/misc/navbar.css">
+     <link rel="stylesheet" href="/assets/css/misc/footer.css">
+    <!-- endCss -->
+     <!-- endCSS -->
+
+    <!-- remixIcons -->
+     <link href="https://cdn.jsdelivr.net/npm/remixicon@4.9.0/fonts/remixicon.css" rel="stylesheet"/>
+    <!-- endremixicons -->
+
+    <!-- googleFonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+     <!-- endGoogleFonts -->
+
+</head>
+<body>
+    {% include navbar.html %}
+    <div class="main_doc">
+        <aside class="sidebar">
+            <div class="inside-sidebar">
+                <a href="../">
+                    <i class="ri-arrow-left-s-line"></i> {{ page.title }}
+                </a>
+                <div class="tool-detail">
+                    <img src="{{ page.tool-icons }}">
+                    <div class="tool-detail-text">
+                        <span>Version: </span>
+                        <div class="links-tools">
+                            <a href="{{ page.tools-homepage }}"><i class="ri-global-line"></i> Home Page</a>|
+                            <a href="{{ page.tools-nethydra-source }}"><i class="ri-box-1-line"></i> source</a>
+                        </div>
+                        <div class="install-text">
+                            <h1>Install</h1>
+                            <code>
+                                apt install {{ page.packages-name }}
+                            </code>
+                            <a id="tools-only-in-sonar" href="/doc/Introduction/wiki-sonar">
+                                ONLY SONAR
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                </section>
+            </div>
+        </aside>
+        <section class="inside_doc">
+            <div class="readme">
+                <h1 id="header-readme">
+                    Tool documentation
+                </h1>
+                {{ content }}
+            </div>
+        </section>
+    </div>
+    {% include footer.html %}
+      <script src="/assets/scripts/navbar.js"></script>
+</body>
+</html>

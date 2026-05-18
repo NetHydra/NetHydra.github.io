@@ -1,11 +1,12 @@
 ---
-layout: docs
+layout: read-the-doc-introduction
 title: About NetHydra
 permalink: /doc/introduction/Wiki-NetHydra
 comments: true
 desc: NetHydra Introduction
 author: Joe
 update: 2025-09-09 06:44:00 +0700
+category: Introduction
 ---
 
 

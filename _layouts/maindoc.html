@@ -3,89 +3,79 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="{{ page.description }}">
     <title>{{ page.title }}</title>
-{% include favicon.html %}
-    <link rel="stylesheet" href="/assets/css/main_doc.css">
-    <link rel="stylesheet" type="text/css" href="/assets/css/footer.css">
-    <link rel="stylesheet" type="text/css" href="/assets/css/navbar.css">
 
+    <!-- css -->
+     <link rel="stylesheet" href="/assets/css/doc/maindoc.css">
+     <link rel="stylesheet" href="/assets/css/misc/navbar.css">
+     <link rel="stylesheet" href="/assets/css/misc/footer.css">
+    <!-- endCss -->
+
+    <!-- googleFonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+     <!-- endGoogleFonts -->
 
-    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css" rel="stylesheet"/>
+     <!-- remixIcons -->
+<link href="https://cdn.jsdelivr.net/npm/remixicon@4.9.0/fonts/remixicon.css" rel="stylesheet"/>
+     <!-- endRemixIcons -->
 
 </head>
 <body>
-	{% include navbar.html %}
-        {% include mobilenav.html %}
-            <script src="/assets/js/main.js"></script>
-
+    {% include navbar.html %}
     <div class="main_docs">
         <div class="inside_docs">
             <div class="list_docs">
                 <ul>
                     <li>
                         <a href="/doc/introduction">
-                            <i class="ri-hourglass-line"></i>
+                            <i class="ri-info-i"></i>
                             <h1>Introduction</h1>
-                            <p>Hystory and what is hydra?</p>
+                            <p>start everything from here</p>
                         </a>
                     </li>
                     <li>
                         <a href="/doc/intallation">
                             <i class="ri-install-line"></i>
                             <h1>Installation</h1>
-                            <p>Standard installation step for HydraPWK</p>
+                            <p>NetHydra Installation doc</p>
                         </a>
                     </li>
                     <li>
-                        <a href="/doc/hydra-on-tv">
-                            <i class="ri-tv-line"></i>
-                            <h1>Hydra on TvBox</h1>
-                            <p>Anything about HydraPWk For TvBox</p>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="/doc/hydra-on-mobile">
-                            <i class="ri-smartphone-line"></i>
-                            <h1>Hydra on mobile</h1>
-                            <p>Anything about Hydra mobile</p>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="/doc/tools-tracker">
-                            <i class="ri-footprint-line"></i>
-                            <h1>Tools Tracker HydraPWK</h1>
-                            <p>Official tools tracker pages for HydraPWK tools package.</p>
+                        <a href="/doc/nethydra-in-cloud-and-server">
+                            <i class="ri-server-line"></i>
+                            <h1>Cloud & server</h1>
+                            <p>NetHydra Installation for Cloud & server</p>
                         </a>
                     </li>
                     <li>
                         <a href="/doc/tools">
                             <i class="ri-inbox-unarchive-line"></i>
                             <h1>HydraPWK Tools</h1>
-                            <p>HydraPWK tools Documentations</p>
+                            <p>Every NetHydra tools documentations</p>
                         </a>
                     </li>
                     <li>
                         <a href="/doc/troubleshot">
                             <i class="ri-tools-line"></i>
                             <h1>Troubleshoot</h1>
-                            <p>HydraPWK troubleshooting</p>
+                            <p>find solutions for Nethydra</p>
                         </a>
                     </li>
                     <li>
                         <a href="/doc/trademark-and-policy">
                             <i class="ri-trademark-line"></i>
                             <h1>Policy</h1>
-                            <p>All about HydraPWK LICENSE and Policy</p>
+                            <p>NetHydra LICENSE & Policy</p>
                         </a>
                     </li>
                     <li>
                         <a href="/doc/gallery">
                             <i class="ri-gallery-line"></i>
                             <h1>Gallery</h1>
-                            <p>Desktop/screenshoot From BlackTrack until HydraPWk</p>
+                            <p>gallery of NetHydra release</p>
                         </a>
                     </li>
                     <li id="ask">
@@ -96,6 +86,7 @@
             </div>
         </div>
     </div>
+    <script src="/assets/scripts/navbar.js"></script>
+    {% include footer.html %}
 </body>
-{% include footer.html %}
 </html>

@@ -1,0 +1,717 @@
+html {
+    scroll-behavior: smooth;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #010409;
+}
+
+::selection {
+    background-color: #367bf0;
+    color: white;
+}
+
+.main_containt {
+    width: 100%;
+    height: 100%;
+    min-height: 100dvh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+@media only screen and (max-width: 600px) {
+
+
+.download-chooser {
+    width: 90%;
+    height: 100%;
+    min-height: 100dvh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.download-chooser-scope ul {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 20px;
+    flex-direction: column;
+}
+
+.card-download {
+    width: 300px;
+    height: 100%;
+    list-style: none;
+    background-color: #16171d86;
+    border-radius: 5px;
+    border: 1px solid #f1f1f110;
+    font-family: "Inter", sans-serif;
+}
+
+.recommends {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    margin-top: -10px;
+}
+
+.recommends span {
+    font-size: 10px;
+    color: white;
+    box-shadow: 0px 0px 5px 0px #367bf0;
+    background-color: #367bf0;
+    padding: 5px 20px;
+    border-radius: 50px;
+
+}
+.download-label {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    padding-top: 0;
+    gap: 20px;
+}
+
+.card-download h1 {
+    font-size: 30px;
+    color: white;
+    font-weight: 500;
+}
+
+.project-logo-text {
+    padding: 20px;
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+.card-download img {
+    width: 100px;
+    align-self: center;
+
+}
+
+.card-download p {
+    font-size: 20px;
+    color: white;
+    line-height: 1.2;
+    font-size: 15px;
+}
+
+.button-download {
+    border: 1px solid #f1f1f110;
+    border-right: none;
+    border-left: none;
+    border-bottom: none;
+    margin-top: 20px;
+    padding: 20px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    display: flex;
+    gap: 10px;
+}
+
+.button-download a {
+    text-decoration: none;
+    color: white;
+    font-weight: 500;
+    letter-spacing: 0.3px;
+}
+
+#read-sonar {
+    background-color: #367bf0;
+    padding: 0px 15px;
+    border-radius: 3px;
+    border-bottom: 2px solid #2b62c0;
+}
+
+/* project platform */
+
+.nethydra-sonar-platform {
+    width: 100%;
+    height: 100%;
+    min-height: 100dvh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 150px;
+}
+
+.inside-nethydra-sonar-platform {
+    width: 90%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 50px;
+}
+
+.inside-nethydra-sonar-platform ul {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    flex-direction: column;
+}
+
+.card-platform {
+    width: 300px;
+    list-style: none;
+    border: 1px solid #f1f1f110;
+    padding: 0;
+    font-family: "Inter", sans-serif;
+    border-radius: 3px;
+    display: flex;
+    flex-direction: column;
+}
+
+.platform-icon {
+    width: 100%;
+    padding: 0;
+    background-color: #16171d86;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 20px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    padding-top: 30px;
+    flex-wrap: wrap;
+}
+
+.platform-icon img {
+    width: 150px;
+}
+
+
+.platform-detail {
+    background-color: transparent;
+    width: 100%;
+    height: 100%;
+    color: white;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 20px;
+    padding: 5px;
+}
+
+.platform-detail h1 {
+    font-weight: 500;
+    letter-spacing: 1px;
+    font-size: 25px;
+}
+
+.platform-detail p {
+    font-weight: normal;
+    font-size: 10px;
+    letter-spacing: 0.4px;
+    line-height: 1.2;
+}
+
+.button-platform {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    align-self: center;
+    display: flex;
+    gap: 20px;
+    color: #f1f1f110;
+}
+
+.button-platform a {
+    text-decoration: none;
+    color: white;
+    font-size: 15px;
+}
+
+.platform-recommends {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    margin-top: -15px;
+    position: absolute;
+}
+
+.platform-recommends span {
+    font-size: 15px;
+    color: white;
+    box-shadow: 0px 0px 5px 0px #367bf0;
+    background-color: #367bf0;
+    padding: 5px 20px;
+    border-radius: 50px;
+}
+
+}
+
+
+@media only screen and (min-width: 600px) {
+
+.download-chooser {
+    width: 90%;
+    height: 100%;
+    min-height: 100dvh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.download-chooser-scope ul {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 20px;
+    flex-direction: unset;
+    flex-wrap: wrap;
+}
+
+.card-download {
+    width: 300px;
+    height: 100%;
+    list-style: none;
+    background-color: #16171d86;
+    border-radius: 5px;
+    border: 1px solid #f1f1f110;
+    font-family: "Inter", sans-serif;
+}
+
+.recommends {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    margin-top: -10px;
+}
+
+.recommends span {
+    font-size: 10px;
+    color: white;
+    box-shadow: 0px 0px 5px 0px #367bf0;
+    background-color: #367bf0;
+    padding: 5px 20px;
+    border-radius: 50px;
+
+}
+.download-label {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    padding-top: 0;
+    gap: 20px;
+}
+
+.card-download h1 {
+    font-size: 30px;
+    color: white;
+    font-weight: 500;
+}
+
+.project-logo-text {
+    padding: 20px;
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+.card-download img {
+    width: 100px;
+    align-self: center;
+
+}
+
+.card-download p {
+    font-size: 20px;
+    color: white;
+    line-height: 1.2;
+    font-size: 15px;
+}
+
+.button-download {
+    border: 1px solid #f1f1f110;
+    border-right: none;
+    border-left: none;
+    border-bottom: none;
+    margin-top: 20px;
+    padding: 20px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    display: flex;
+    gap: 10px;
+}
+
+.button-download a {
+    text-decoration: none;
+    color: white;
+    font-weight: 500;
+    letter-spacing: 0.3px;
+}
+
+#read-sonar {
+    background-color: #367bf0;
+    padding: 0px 15px;
+    border-radius: 3px;
+    border-bottom: 2px solid #2b62c0;
+}
+
+/* project platform */
+
+.nethydra-sonar-platform {
+    width: 100%;
+    height: 100%;
+    min-height: 100dvh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 150px;
+}
+
+.inside-nethydra-sonar-platform {
+    width: 90%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: unset;
+    gap: 50px;
+}
+
+.inside-nethydra-sonar-platform ul {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    flex-direction: column;
+}
+
+.card-platform {
+    width: 300px;
+    list-style: none;
+    border: 1px solid #f1f1f110;
+    padding: 0;
+    font-family: "Inter", sans-serif;
+    border-radius: 3px;
+    display: flex;
+    flex-direction: column;
+}
+
+.platform-icon {
+    width: 100%;
+    padding: 0;
+    background-color: #16171d86;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 20px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    padding-top: 30px;
+    flex-wrap: wrap;
+}
+
+.platform-icon img {
+    width: 150px;
+}
+
+
+.platform-detail {
+    background-color: transparent;
+    width: 100%;
+    height: 100%;
+    color: white;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 20px;
+    padding: 5px;
+}
+
+.platform-detail h1 {
+    font-weight: 500;
+    letter-spacing: 1px;
+    font-size: 25px;
+}
+
+.platform-detail p {
+    font-weight: normal;
+    font-size: 15px;
+    letter-spacing: 0.4px;
+    line-height: 1.2;
+}
+
+.button-platform {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    align-self: center;
+    display: flex;
+    gap: 20px;
+    color: #f1f1f110;
+}
+
+.button-platform a {
+    text-decoration: none;
+    color: white;
+    font-size: 15px;
+}
+
+.platform-recommends {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    margin-top: -15px;
+    position: absolute;
+}
+
+.platform-recommends span {
+    font-size: 15px;
+    color: white;
+    box-shadow: 0px 0px 5px 0px #367bf0;
+    background-color: #367bf0;
+    padding: 5px 20px;
+    border-radius: 50px;
+}
+
+}
+
+@media only screen and (min-width: 1200px) {
+.download-chooser {
+    width: 90%;
+    height: 100%;
+    min-height: 100dvh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.download-chooser-scope ul {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 20px;
+}
+
+.card-download {
+    width: 400px;
+    height: 100%;
+    list-style: none;
+    background-color: #16171d86;
+    border-radius: 5px;
+    border: 1px solid #f1f1f110;
+    font-family: "Inter", sans-serif;
+}
+
+.recommends {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    margin-top: -15px;
+}
+
+.recommends span {
+    font-size: 15px;
+    color: white;
+    box-shadow: 0px 0px 5px 0px #367bf0;
+    background-color: #367bf0;
+    padding: 5px 20px;
+    border-radius: 50px;
+
+}
+.download-label {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    padding-top: 0;
+    gap: 20px;
+}
+
+.card-download h1 {
+    font-size: 50px;
+    color: white;
+    font-weight: 500;
+}
+
+.project-logo-text {
+    padding: 20px;
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+.card-download img {
+    width: 150px;
+    align-self: center;
+
+}
+
+.card-download p {
+    font-size: 25px;
+    color: white;
+    line-height: 1.2;
+    font-size: 15px;
+}
+
+.button-download {
+    border: 1px solid #f1f1f110;
+    border-right: none;
+    border-left: none;
+    border-bottom: none;
+    margin-top: 20px;
+    padding: 20px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    display: flex;
+    gap: 10px;
+}
+
+.button-download a {
+    text-decoration: none;
+    color: white;
+    font-weight: 500;
+    letter-spacing: 0.3px;
+}
+
+#read-sonar {
+    background-color: #367bf0;
+    padding: 0px 15px;
+    border-radius: 3px;
+    border-bottom: 2px solid #2b62c0;
+}
+
+/* project platform */
+
+.nethydra-sonar-platform {
+    width: 100%;
+    height: 100%;
+    min-height: 100dvh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.inside-nethydra-sonar-platform {
+    width: 90%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 50px;
+}
+
+.inside-nethydra-sonar-platform ul {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    flex-direction: unset;
+}
+
+.card-platform {
+    width: 500px;
+    list-style: none;
+    border: 1px solid #f1f1f110;
+    padding: 0;
+    font-family: "Inter", sans-serif;
+    border-radius: 3px;
+    display: flex;
+    flex-direction: column;
+}
+
+.platform-icon {
+    width: 100%;
+    padding: 0;
+    background-color: #16171d86;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 20px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    flex-direction: unset;
+    flex-wrap: unset;
+}
+
+.platform-icon img {
+    width: 150px;
+}
+
+
+.platform-detail {
+    background-color: transparent;
+    width: 100%;
+    height: 100%;
+    color: white;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.platform-detail h1 {
+    font-weight: 500;
+    letter-spacing: 1px;
+}
+
+.platform-detail p {
+    font-weight: normal;
+    font-size: 15px;
+    letter-spacing: 0.4px;
+    line-height: 1.2;
+}
+
+.button-platform {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    align-self: center;
+    display: flex;
+    gap: 20px;
+    color: #f1f1f110;
+}
+
+.button-platform a {
+    text-decoration: none;
+    color: white;
+    font-size: 15px;
+}
+
+.platform-recommends {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    margin-top: -15px;
+    position: absolute;
+}
+
+.platform-recommends span {
+    font-size: 15px;
+    color: white;
+    box-shadow: 0px 0px 5px 0px #367bf0;
+    background-color: #367bf0;
+    padding: 5px 20px;
+    border-radius: 50px;
+}
+}

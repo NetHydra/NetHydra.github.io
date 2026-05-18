@@ -3,74 +3,66 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="{{ page.description }}">
-    <title>{{page.title}} | blog </title>
-    <link rel="stylesheet" href="/assets/css/blog_read.css">
-    <link rel="stylesheet" type="text/css" href="/assets/css/navbar.css">
-    <link rel="stylesheet" type="text/css" href="/assets/css/footer.css">
-{% include favicon.html %}
-    <!-- googleFonts -->
+    <title>{{ page.title }}</title>
+    <meta name="description" content="{{ page.description }}" />
 
+    <!-- css -->
+     <link rel="stylesheet" href="/assets/css/blog/blog-read.css">
+     <link rel="stylesheet" href="/assets/css/misc/navbar.css">
+     <link rel="stylesheet" href="/assets/css/misc/footer.css">
+    <!-- endCss -->
+     <!-- endCSS -->
+
+    <!-- remixIcons -->
+     <link href="https://cdn.jsdelivr.net/npm/remixicon@4.9.0/fonts/remixicon.css" rel="stylesheet"/>
+    <!-- endremixicons -->
+
+    <!-- googleFonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+     <!-- endGoogleFonts -->
 
-    <!-- endGoogleFonts -->
-
-    <!-- remixIcons -->
-
-    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css" rel="stylesheet"/>
-    
-    <!-- endRemixIcons -->
 </head>
 <body>
     {% include navbar.html %}
-        {% include mobilenav.html %}
-    <script src="/assets/js/main.js"></script>
-
-    <div class="main_blog">
-        <div class="inside_blog">
-            <div class="banner">
-                <h4 id="bannerh1">{{ page.title }}</h4>
-                <div class="by">
-                    <span><i class="ri-user-line"></i> {{ page.author }}</span>
-                    <span>|</span>
-                    <span><i class="ri-calendar-line"></i> {{ page.date | date: "%-d %B %Y" }} </span>
+    <div class="main_doc">
+        <section class="inside_doc">
+            <div id="banner_blog">
+                <img src="{{ page.thumbnail }}">
+                <div class="post-detail">
+                    <span>
+                        <i class="ri-alarm-line"></i> 3 March 2026 
+                    </span>
+                    <h1 id="title">
+                        {{ page.title }}
+                    </h1>
                 </div>
-                <img src="{{page.thumbnail}}">
             </div>
-            <div class="write_containt">
+            <div class="readme">
                 {{ content }}
             </div>
-        </div>
-        <div class="right_side">
-            <h2>
-                CONNECT WITH US
-            </h2>
-            <div class="right_links">
-                <a href="https://github.com/hydrapwk/"><i class="ri-github-fill"></i></a>
-                <a href="https://www.instagram.com/hydrapwklinux/"><i class="ri-instagram-fill"></i></a>
-                <a href="https://t.me/blacktracksecurity"><i class="ri-telegram-fill"></i></a>
-                <a href="https://gitlab.com/hydrapwk"><i class="ri-gitlab-fill"></i></a>
+        </section>
+        <aside class="sidebar">
+            <div class="inside-sidebar">
+                <h1>
+                    follow us
+                </h1>
+                <div class="sidebar-follow-links">
+                    <a href="#">
+                        <i class="ri-mastodon-fill"></i>
+                    </a>
+                    <a href="#">
+                        <i class="ri-twitter-fill"></i>
+                    </a>
+                    <a href="#">
+                        <i class="ri-instagram-fill"></i>
+                    </a>
+                </div>
             </div>
-            <!-- <div class="sideright_button">
-                <a href="#">documentations <i class="ri-shopping-cart-2-line"></i></a>
-            </div> -->
-            <div id="hydrapwk-banner">
-                <h1>BlackTrack is<br>now HydraPWK</h1><br>
-            </div>
-        </div>
-<script>
-function myFunction() {
-  var x = document.getElementById("myLinks");
-  if (x.style.display === "block") {
-    x.style.display = "none";
-  } else {
-    x.style.display = "block";
-  }
-}
-</script>
+        </aside>
     </div>
     {% include footer.html %}
+      <script src="/assets/scripts/navbar.js"></script>
 </body>
 </html>

@@ -1,11 +1,12 @@
 ---
-layout: docs
+layout: read-the-doc-introduction
 title: Hydra history
 permalink: /doc/introduction/hydra-history
 comments: true
 desc: This documentation will tell you story about Hydra and BlackTrack.
 author: Joe
 update: 2025-10-06 11:13:00 +0700
+category: Introduction
 ---
 
 <!-- > HydraPWK (Previously BlackTrack), is an self development project 

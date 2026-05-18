@@ -1,5 +1,5 @@
 ---
-layout: get
+layout: get-nethydra
 title: NetHydra | Platform
 permalink: /get/
 comments: true

@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{ page.title }}</title>
+    <meta name="description" content="{{ page.description }}">
+    <link rel="stylesheet" href="/assets/css/download/get-nethydra.css">
+
+     <link rel="stylesheet" href="/assets/css/misc/navbar.css">
+     <link rel="stylesheet" href="/assets/css/misc/footer.css">
+    <!-- googleFonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+     <!-- endGoogleFonts -->
+    
+
+<link
+  href="https://cdn.jsdelivr.net/npm/remixicon@4.9.0/fonts/remixicon.css"
+  rel="stylesheet"
+/>
+
+</head>
+
+<body>
+    {% include navbar.html %}
+    <div class="main_containt">
+        <div class="download-chooser">
+            <section class="download-chooser-scope">
+                <ul>
+                    <li class="card-download">
+                        <div class="project-logo-text">
+                            <img src="/assets/graphics/logos/nethydra-text-logo-white.svg">
+                        </div>
+                        <div class="download-label">
+                            <h1>
+                                NetHydra Express
+                            </h1>
+                            <p>
+                                standard NetHydra Live Image
+                            </p>
+                        </div>
+                        <div class="button-download">
+                            <a href="/get/hydrapwk-standar">
+                                Download
+                            </a>
+                        </div>
+                    </li>
+                    <li class="card-download">
+                        <div class="recommends">
+                            <span>
+                                <i class="ri-lightbulb-line"></i>  Recommends for enterprise sector
+                            </span>
+                        </div>
+                        <div class="project-logo-text">
+                            <img src="/assets/graphics/logos/sonar-text.svg">
+                        </div>
+                        <div class="download-label">
+                            <h1>
+                                SONAR
+                            </h1>
+                            <p>
+                               NetHydra sonar for enterprise sector with support for Web Applications security, Defensive, Threat intelegence.
+                            </p>
+                        </div>
+                        <div class="button-download">
+                            <a href="#sonar-platform">
+                                Download
+                            </a>
+                            <a href="#" id="read-sonar">
+                                read sonar
+                            </a>
+                        </div>
+                    </li>
+<!--                     <li class="card-download">
+                        <div class="project-logo-text">
+                            <img style="width: 80px;" src="/assets/graphics/logos/backtrace-logo.svg">
+                        </div>
+                        <div class="download-label">
+                            <h1>
+                                BackTrace (NetOpsy)
+                            </h1>
+                            <p>
+                                Live Digital forensic
+                            </p>
+                        </div>
+                        <div class="button-download">
+                            <a href="#">
+                                Download
+                            </a>
+                        </div>
+                    </li> -->
+                </ul>
+            </section>
+        </div>
+        <div class="nethydra-sonar-platform" id="sonar-platform">
+            <section class="inside-nethydra-sonar-platform">
+                <ul>
+                    <li class="card-platform" style="box-shadow: 0px 5px 20px rgba(104, 104, 104, 0.3);">
+                        <div class="platform-recommends">
+                            <span>
+                                <i class="ri-lightbulb-line"></i>  Recommends
+                            </span>
+                        </div>
+                        <div class="platform-icon">
+                            <img src="/assets/graphics/hero/nethydra-sonar-cd-icon.svg" alt="nethydra sonar wsl icon">
+                            <div class="platform-detail">
+                                <h1>Live Installer AMD64</h1>
+                                <p>
+                                    NetHydra SONAR standard Live installer Image
+                                </p>
+                            </div>
+                        </div>
+                        <div class="button-platform">
+                            <a href="/get/sonar">Download</a>|
+                            <a href="#">Documentation</a>
+                        </div>
+                    </li>
+                </ul>
+<!--                 <ul>
+                    <li class="card-platform">
+                        <div class="platform-icon">
+                            <img src="/assets/graphics/hero/nethydra-sonar-docker-icon.svg" alt="nethydra sonar wsl icon">
+                            <div class="platform-detail">
+                                <h1>SONAR ON Docker</h1>
+                                <p>
+                                    A NetHydra SONAR Docker container image
+                                </p>
+                            </div>
+                        </div>
+                        <div class="button-platform">
+                            <a href="#">Not available</a>|
+                            <a href="#">Documentation</a>
+                        </div>
+                    </li>
+                    <li class="card-platform">
+                        <div class="platform-icon">
+                            <img src="/assets/graphics/hero/nethydra-sonar-wsl-icon.svg" alt="nethydra sonar wsl icon">
+                            <div class="platform-detail">
+                                <h1>SONAR ON WSL</h1>
+                                <p>
+                                    A NetHydra SONAR wsl image for Windows
+                                </p>
+                            </div>
+                        </div>
+                        <div class="button-platform">
+                            <a href="#">Not available</a>|
+                            <a href="#">Documentation</a>
+                        </div>
+                    </li>
+                </ul> -->
+            </section>
+        </div>
+    </div>
+    {% include footer.html %}
+    <script src="/assets/scripts/navbar.js"></script>
+</body>
+</html>

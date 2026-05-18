@@ -1,5 +1,5 @@
 ---
-layout: docbridge
+layout: doc-bridge-introduction
 title: Story | Hydra
 permalink: /doc/introduction
 comments: true

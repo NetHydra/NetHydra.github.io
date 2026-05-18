@@ -1,5 +1,5 @@
 ---
-layout: docs
+layout: read-the-doc
 title: Make media bootable For NetHydrad
 permalink: /doc/installation/make-media-bootable-for-nethydra
 comments: true
@@ -14,7 +14,7 @@ update: 2026-03-14 13:53:00 +0700
 > Before we start make sure you have NetHydra .ISO image from [Official download page](/get) NetHydra.
 
 
-### Make NetHydra bootable media using Balena Etcher.
+## Make NetHydra bootable media using Balena Etcher.
 
 
 
@@ -51,7 +51,7 @@ Last step, burn image to Media
 Now you can use bootable media.
 
 
-### Creating bootable media for Hydra Using DD.
+## Creating bootable media for Hydra Using DD.
 
 > We doesn't recommends this method but you can Try!
 
