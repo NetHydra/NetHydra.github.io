@@ -3,7 +3,7 @@
 # To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 
 layout: nethydra-index
-title: NetHydra
+title: NetHydra | The end-point Destroyer
 description: NetHydra (formely known as HydraPWK) The Opensource Swiss Army Knife designed for Industry realm. based on Debian project
 release: /blog/nethydra-2026.2-release
 ---
