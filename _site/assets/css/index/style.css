@@ -204,6 +204,7 @@ body {
     display: flex;
     flex-direction: column;
     gap: 20px;
+    flex-wrap: unseet;
 }
 #card-features {
     background-color: #25212b;
@@ -1627,6 +1628,7 @@ body {
 .scope-features {
     display: flex;
     gap: 20px;
+    flex-wrap: unset;
 }
 #card-features {
     background-color: #25212b;
