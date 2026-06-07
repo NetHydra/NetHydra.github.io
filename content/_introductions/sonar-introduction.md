@@ -9,27 +9,36 @@ update: 2026-05-18 13:13:00 +0700
 category: Introduction
 ---
 
-## What is SONAR
+## One Input. Full SOC Environment.
 
-SONAR (NetHydra SONAR) is another variant of NetHydra SONAR is intended for enterprise security audits, including networking, web application security, forensics, and more.
+SONAR is built to make your SOC (Security Operations Center) workflow dead simple. No more dealing with complex, manual setups.
 
-<!-- Sonar also includes defense security tools, such as Wazuh, MISP, and Arkime. -->
+## NetHydra Express vs SONAR
 
-## standard NetHydra vs SONAR
-
-| SUPPORT BY DEFAULT | NetHydra | SONAR |
-| :---:   | :---: | :---: |
-| Web Application security | NO | Yes |
+| Feature / Support | NetHydra | SONAR |
+| :--- | :---: | :---: |
+| Web Application Security | ❌ | YES |
 | Defense Tools | YES | YES |
-| Threat Intelegence | NO | Yes |
-| RT Kernel | YES | NO |
+| Threat Intelligence | ❌ | YES |
+| RT Kernel | YES | ❌ |
 
-## How SONAR could help you and your Enterprise organization?
+## What SONAR Does
 
-## Flexibility
+Simply put, SONAR automates your SOC setup from scratch to a ready-to-use state. It automatically deploys security tools, handles system configurations, and resolves all backend dependencies. You just run it and get to work.
 
-SONAR (NetHydra SONAR) given you very flexible tools in one place including Threat intelegence, Web Application security, Networking, Threat hunting. and it's suite for Your Enterprise in every possible way.
+### Built-in Components
+By default, a SONAR environment includes:
+* **Wazuh** (Security Monitoring)
+* **MISP** (Threat Intelligence)
+* **Arkime** (Network Traffic Analysis)
+* Supporting infrastructure for logging and indexing.
 
-## One touch
+## Why SONAR?
 
-SONAR giving you a very simple setup for Every tools.
+* **One touch** - simple setup for End-user
+
+## Use Cases
+
+* **Operations & Investigation:** Quick setup for security teams and threat analysis.
+* **Labs & Research:** A practical infrastructure for security testing or learning environments.
+* **Prototyping:** Instant SOC environments for quick demos or proofs of concept.
