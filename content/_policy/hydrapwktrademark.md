@@ -1,5 +1,5 @@
 ---
-layout: docs
+layout: read-the-doc-policy
 title: HydraPWK Trademark
 permalink: /doc/hydrapwk-policy-trademark
 desc: ARTWORK

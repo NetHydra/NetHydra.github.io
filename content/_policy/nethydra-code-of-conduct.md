@@ -1,5 +1,5 @@
 ---
-layout: normal-docs
+layout: read-the-doc-policy
 title: NetHydra CODE OF CONDUCT
 permalink: /doc/nethydra-code-of-conduct
 desc: NetHydra CODE OF CONDUCT
